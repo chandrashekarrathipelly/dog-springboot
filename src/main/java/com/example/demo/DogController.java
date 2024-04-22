@@ -36,4 +36,9 @@ public class DogController {
         return dogService.getDogStatus();
     }
 
+    @GetMapping("dogstatus/unhealthy")
+    public List<Dog> getUnhealthyDogs(){
+        return null;
+    }
+
 }
